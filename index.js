@@ -21,4 +21,23 @@ dayNightTheme = () => {
    document.querySelector("#search").addEventListener("click", () => {
     apiRequest();
  });
- 
+ apiRequest = () => {
+  
+    document.querySelector("#grid").textContent = "";
+    
+    const url = 'https://api.unsplash.com/search/photos?query='+input.value+'&per_page=30&client_id=IRqXjzvuNdMOxJP8Qb0f6-uOBI_SnLvm82i_Xlj8seA';
+    
+    fetch(url)
+    
+    .then(response => {
+      if (!response.ok) throw Error(response.statusText);
+        return response.json();
+     })
+    
+     .then(data => {
+        loadImages(data);
+     })
+    
+     .catch(error => console.log(error));  
+   }
+   
