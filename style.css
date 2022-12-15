@@ -19,7 +19,7 @@ img{
 
 body{
     font-family: 'Comfortaa', cursive;
-    background-color: white;
+    background-color: black;
     color: rgb(255, 255, 255);
     overflow-x: hidden;
   }
@@ -121,6 +121,7 @@ input:focus{
   #header h1{
     text-align: center;
     font-size: 1.5rem;
+
   }
 
   #search_box{
