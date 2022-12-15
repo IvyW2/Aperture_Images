@@ -14,4 +14,8 @@ dayNightTheme = () => {
     
    window.addEventListener('load', dayNightTheme);
     
-  
+   document.querySelector("#input").addEventListener("keydown", (event) => {
+    if (event.key == "Enter")
+      apiRequest();
+   });
+    
