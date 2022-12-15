@@ -27,7 +27,7 @@ body{
 .container{
   width: 1280px;
   margin: auto;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 
@@ -114,7 +114,7 @@ input:focus{
     justify-content: center;
   }
 
-  #header h2{padding: 5px 0;}
+  #header h1{padding: 5px 0;}
 }
 
 @media(max-width:480px){
