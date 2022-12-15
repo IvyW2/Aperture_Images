@@ -1,0 +1,29 @@
+{
+  "name": "aperture_images",
+  "version": "1.0.0",
+  "description": "photo generator app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvyW2/Aperture_Images.git"
+  },
+  "keywords": [
+    "photo",
+    "photo",
+    "generator",
+    "js",
+    "CSS",
+    "HTML",
+    "vanilla",
+    "Js"
+  ],
+  "author": "Ivy Wambugha Thoya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvyW2/Aperture_Images/issues"
+  },
+  "homepage": "https://github.com/IvyW2/Aperture_Images#readme"
+}
