@@ -46,9 +46,9 @@ To get the code..
 - You can now interact with the application and make the necessary operations
 
 ## Technology used
-- HTML5
-- Javascript
-- [CSS]
+- [HTML5](https://www.python.org/)
+- [Javascript](https://www.heroku.com/)
+- [CSS](https://www.heroku.com/)
 
 ## Author
 Project contributed to by:[Ivy Wambugha Thoya](https://github.com/IvyW2/)
