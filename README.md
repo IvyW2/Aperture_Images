@@ -45,13 +45,14 @@ To get the code..
 6. Open the application on your browser:http://127.0.0.1:5502/
 - You can now interact with the application and make the necessary operations
 
-Technology used
-HTML5
-Javascript
-[CSS]
-Author
-Project contributed to by: Ivy Wambugha Thoya
+## Technology used
+- HTML5
+- Javascript
+- [CSS]
 
-Licence
+## Author
+Project contributed to by:[Ivy Wambugha Thoya](https://github.com/IvyW2/)
+
+## Licence
 This project is licensed under the ISC licence
 
