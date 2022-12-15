@@ -34,15 +34,16 @@ To get the code..
 ```bash
     code .
 ```
-5. Before running the application
-- The following command will activate the backend before testing the application. You can run the following command in the terminal inside the VS Code
+5. Watching the json server
+- Before runnig the application use the following command will activate the backend before testing the application. You can run the following command in the terminal inside the VS Code
 ```bash
  json-server --watch db.json 
 ```
 ## Running the application
 - Right click on the on the HTML file index.html on the primary side bar to open the context menu and select **Open with Live Server** to launch it in a browser.
-Open the application on your browser:http://127.0.0.1:5502/
-You can now interact with the application and make the necessary operations
+
+6. Open the application on your browser:http://127.0.0.1:5502/
+- You can now interact with the application and make the necessary operations
 
 Technology used
 HTML5
