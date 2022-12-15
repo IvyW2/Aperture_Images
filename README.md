@@ -19,21 +19,28 @@ To get the code..
 
 1. Got to the following github repository to access the files.
 ```bash
-        git clone git@github.com:IvyW2/Aperture_Images.git
+        https://github.com/IvyW2/Aperture_Images
 ```
 
-Fork and Clone the repository above to your local computer.
-
-Move to the folder where you cloned the files and install requirements and make sure you are in the below directory:
-
-cd Flatacuties-week2/
-Open the folder in VS Code using the command
-code .
-Before running the application
-The following command will activate the backend before testing the application. You can run the following command in the terminal inside the VS Code
+2. Fork and Clone the repository above to your local computer.
+```bash
+        git clone git@github.com:IvyW2/Aperture_Images.git
+```
+3. Move to the folder where you cloned the files and install requirements and make sure you are in the below directory:
+```bash
+    cd Aperture_Images/
+```
+4. Open the folder in VS Code using the command
+```bash
+    code .
+```
+5. Before running the application
+- The following command will activate the backend before testing the application. You can run the following command in the terminal inside the VS Code
+```bash
  json-server --watch db.json 
-Running the application
-right click on the index.html file and run using Live Server to open the application in your web browser
+```
+## Running the application
+- Right click on the on the HTML file index.html on the primary side bar to open the context menu and select **Open with Live Server** to launch it in a browser.
 Open the application on your browser:http://127.0.0.1:5502/
 You can now interact with the application and make the necessary operations
 
@@ -46,3 +53,4 @@ Project contributed to by: Ivy Wambugha Thoya
 
 Licence
 This project is licensed under the ISC licence
+
