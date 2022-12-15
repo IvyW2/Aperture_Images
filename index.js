@@ -18,4 +18,7 @@ dayNightTheme = () => {
     if (event.key == "Enter")
       apiRequest();
    });
-    
+   document.querySelector("#search").addEventListener("click", () => {
+    apiRequest();
+ });
+ 
