@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
 }
-
+img{border-bottom: 5px solid goldenrod;}
 img{
     position: absolute;
     z-index: -2;
