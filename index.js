@@ -38,7 +38,7 @@ document.querySelector("#input").addEventListener("keydown", (event) => {
 //       document.querySelector("#grid").appendChild(image);
 //     }
 //    }
- //creating Dom elements and appending them to parent
+ //creating Dom element and appending them to parent
 loadImages = (data) => {
     for(let i = 0;i < data.results.length;i++){
       let image = document.createElement("div");
