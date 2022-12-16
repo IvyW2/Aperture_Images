@@ -1,88 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="shortcut icon" type="image/png" href="photo.png" />
-  <link rel="stylesheet" href="style.css">
-  <title>Aperture Images</title>
-  
-</head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <link rel="shortcut icon" type="image/png" href="photo.png" />
+ <link rel="stylesheet" href="style.css">
+ <title>Aperture Images</title>
+ </head>
 <body>
-    <div id="header">
-        <img src="cover.jpeg"/>
-            <h1><i class="fas fa-camera" style="color: goldenrod;"></i> Aperture Images
-            </h1>
-  <!-- Authentication section -->
-    <!-- sign up form -->
-    <form action="submit" id="signUp">
-        <h3>Sign up</h3>
-        <label>
-         <p>Enter email</p>
+   <div id="header">
+       <img src="cover.jpeg"/>
+           <h1><i class="fas fa-camera" style="color: goldenrod;"></i> Aperture Images
+           </h1>
+ <!-- Authentication section -->
+   <!-- sign up form -->
+   <form id="signUp">
+       <h3>Sign up</h3>
+       <label>
+        <p style="color: black;"> Email</p>
+           <input
+            type="email"
+           id="signupEmail"
+           placeholder="e.g: apertureimgs@gmail.com"
+           />
+     </label>
+     <label>
+        <p style="color: black;">Enter User Name</p>
+           <input
+            type="text"
+            id="signupUserName"
+            placeholder="e.g: Ivy"
+           />
+     </label>
+     <label>
+        <p style="color: black;">Enter password</p>
+        <input type="password" id="signUpPass" placeholder="password"/>
+        <p style="color: black;">Comfirm password</p>
+        <input type="password" id="ComfrmPass" placeholder="comfirm password"/>
+     </label>
+     <button id="signUpBtn">sign up</button>
+     <button id="LogInInstead">Not a New User? Log in</button>
+   </form>
+   <!-- login form -->
+   <form id="login">
+     <h3>Log in</h3>
+     <label>
+           <p style="color: black;">Enter email</p>
             <input
-             type="email"
-            id="signupEmail"
-            placeholder="e.g: apertureimgs@gmail.com"
-            />
-      </label>
-      <label>
-         <p>Enter user name</p>
-            <input
-             type="text"
-             id="signupUserName"
-             placeholder="e.g: Ivy"
-            />
-      </label>
-      <label>
-         <p>Enter password</p>
-         <input type="password" id="signUpPass" placeholder="password"/>
-      </label>
-      <button type="submit" id="signUpBtn">sign up</button>
-    </form>
-    <!-- login form -->
-    <form action="submit" id="login">
-      <h3>Log in</h3>
-      <label>
-            <p>Enter email</p>
-             <input
-                type="email"
-                id="loginEmail"
-                placeholder="e.g: apertureimgs@gmail.com"
-            />
-      </label>
-      <label>
-            <p>Enter password</p>
-            <input type="password" id="loginPass" placeholder="password"/>
-      </label>
-      <button type="submit" id="loginBtn">log in</button>
-    </form>
-  </section>  
-  <main>
-    <nav>
-
-        <header>
-        <div class="container">
-                    <div id="search_box">
-                        <input id="input" type="text" placeholder="Search..."><i id="search" class="fas fa-search"></i>
-                    </div>
-                </div>
-        </div>
-        
-        </header>
-    </nav>
-        <section>
-        <div class="container">
-            <div id="grid"></div>
-            <!-- <div class="my-2">
-                <button id = "Btn"class="fas fa-heart ms-5" onclick="">Like</button>
-                <button id="Btn" class="fas fa-arrow-down" onclick="">Dowload</button>
-            </div> -->
-        </div>
-        </section>
-    
-  </main>
-    
-  <script src="index.js"></script>
+               type="email"
+               id="loginEmail"
+               placeholder="e.g: apertureimgs@gmail.com"
+           />
+     </label>
+     <label>
+           <p style="color: black;">Enter password</p>
+           <input type="password" id="loginPass" placeholder="password"/>
+     </label>
+     <button id="loginBtn">log in</button>
+     <button id="SignUpInstead">Sign Up</button>
+   </form>
+ </section> 
+ <main>
+   <nav>
+ 
+       <header>
+       <div class="container">
+                   <div id="search_box">
+                       <input id="input" type="text" placeholder="Search..."><i id="search" class="fas fa-search"></i>
+                   </div>
+               </div>
+       </div>
+      
+       </header>
+   </nav>
+       <section>
+       <div class="container">
+           <div id="grid"></div>
+           <!-- <div class="my-2">
+               <button id = "Btn"class="fas fa-heart ms-5" onclick="">Like</button>
+               <button id="Btn" class="fas fa-arrow-down" onclick="">Dowload</button>
+           </div> -->
+       </div>
+       </section>
+  
+ </main>
+  
+ <script src="index.js"></script>
 </body>
 </html>
