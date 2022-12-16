@@ -68,16 +68,14 @@ window.onload = function () {
     .catch(error => console.log(error));
  }
   
- //creating Dom element and appending them to parent node
+ //creating Dom element and appending them to parent
  loadImages = (data) => {
   for (let i = 0; i < data.results.length; i++) {
     let image = document.createElement("div");
     image.className = "img";
     image.style.backgroundImage = "url(" + data.results[i].urls.raw + "&w=1366&h=768" + ")";
-    image.innerHTML = '<i style="font-size:24px" class="fa">&#xf019</i>';
-    image.addEventListener("click", function () {
-      window.open(data.results[i].links.download, '_blank');
-    })
+    image.innerHTML = `<a style = "color: white" href="${data.results[i].links.download}" download="${data.results[i].urls.raw}.jpg" target=_blank><i style="font-size:24px" class="fa">&#xf019</i></a>`;
+    
     document.querySelector("#grid").appendChild(image);
   }
  }
