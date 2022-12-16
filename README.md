@@ -3,7 +3,8 @@
 This application allows users to search for a particular picture, access a stack of related pictures and download the perfect problem solving picture.
 
 ## User Story
-- The user is able to view a stack of search related pictures.
+- The user starts by loggin in or signing up if he/she is a new user.
+- The user is prompted by a search box to search for a desired photo, a stack of search related pictures is displayed.
 - The user is able to select a particular picture.
 - The user is able to download the perfect problem solving picture.
 
