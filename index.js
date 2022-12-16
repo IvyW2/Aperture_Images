@@ -68,7 +68,7 @@ window.onload = function () {
     .catch(error => console.log(error));
  }
   
- //creating Dom element and appending them to parent
+ //creating Dom element and appending them to parent node
  loadImages = (data) => {
   for (let i = 0; i < data.results.length; i++) {
     let image = document.createElement("div");
