@@ -5,13 +5,14 @@ This application allows users to search for a particular picture, access a stack
 ## User Story
 - The user starts by loggin in or signing up if he/she is a new user.
 - The user is prompted by a search box to search for a desired photo, a stack of search related pictures is displayed.
-- The user is able to select a particular picture.
-- The user is able to download the perfect problem solving picture.
+- The user is able to click on the download icon on the selected picture to download it.
+- The picture will open on a new tab, right click and select 'save image as...'.
+- A window will appear, click on save to download and save the perfect problem solving picture to your local machine.
+
 
 ## Development Requirements
 - Visual Studio Code.
 - Live server extension.
-- json-server packages installed
 - npm
 - Browser(Chrome or any other Chromium based Browser)
 
@@ -35,13 +36,8 @@ To get the code..
 ```bash
     code .
 ```
-5. Watching the json server
-- Before runnig the application use the following command will activate the backend before testing the application. You can run the following command in the terminal inside the VS Code
-```bash
- json-server --watch db.json 
-```
 ## Running the application
-- Right click on the on the HTML file index.html on the primary side bar to open the context menu and select **Open with Live Server** to launch it in a browser.
+Right click on the on the HTML file index.html on the primary side bar to open the context menu and select **Open with Live Server** to launch it in a browser.
 
 6. Open the application on your browser:http://127.0.0.1:5502/
 - You can now interact with the application and make the necessary operations
